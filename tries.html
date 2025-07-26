@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #0f172a;
+      color: #fff;
+      font-family: sans-serif;
+    }
+
+    .name-container {
+      font-size: 2.5rem;
+      font-weight: bold;
+      animation: fadeLoop 18s infinite;
+    }
+
+    @keyframes fadeLoop {
+      0%    { content: "Koushik Rajan"; opacity: 1; }
+      16.6% { content: "கௌஷிக் ராஜன்"; opacity: 1; }
+      33.2% { content: "कौशिक राजन"; opacity: 1; }
+      49.8% { content: "コウシク・ラジャン"; opacity: 1; }
+      66.4% { content: "كوشيك راجان"; opacity: 1; }
+      83%   { content: "Каушик Раджан"; opacity: 1; }
+      100%  { content: "Koushik Rajan"; opacity: 1; }
+    }
+
+    .name-container::before {
+      content: "Koushik Rajan";
+      animation: fadeText 18s infinite steps(1);
+    }
+
+    @keyframes fadeText {
+      0%    { content: "Koushik Rajan"; }
+      16.6% { content: "கௌஷிக் ராஜன்"; }
+      33.2% { content: "कौशिक राजन"; }
+      49.8% { content: "コウシク・ラジャン"; }
+      66.4% { content: "كوشيك راجان"; }
+      83%   { content: "Каушик Раджан"; }
+      100%  { content: "Koushik Rajan"; }
+    }
+  </style>
+</head>
+<body>
+  <div class="name-container"></div>
+</body>
+</html>
