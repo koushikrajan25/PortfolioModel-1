@@ -69,7 +69,7 @@ h3 {
 #hero {
   background:
     linear-gradient(to right, rgba(40,44,52,0.95)),
-    url('https://img.freepik.com/free-photo/website-html-code-browser-view-printed-white-paper-closeup-view_211682-166.jpg?semt=ais_items_boosted&w=740');
+    url('https://raw.githubusercontent.com/koushikrajan25/PortfolioModel-1/refs/heads/main/assets/Hero_background/website-html-code-browser-view-printed-white-paper-closeup-view_211682-166.avif');
   background-size: cover;
   color: var(--accent); 
   text-align: center; 
