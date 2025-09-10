@@ -3,52 +3,51 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>KoushikRajan| Developer Portfolio</title>
+    <title>KoushikRajan | Developer Portfolio</title>
     <meta name="keywords" content="KoushikRajan, Developer, application Development, Web Development, Portfolio" />
     <meta name="description" content="Koushik | Application Development and Web Development Portfolio" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
 
-<!-- Hero Section -->
-<section id="hero">
-  <div class="container">
-    <h2>Hi, I'm <span class="highlight" id="name">Koushik Rajan</span></h2>
-    <p>Aspiring application & web Developer</p>
-   <img src="https://raw.githubusercontent.com/koushikrajan25/PortfolioModel-1/main/assets/Profile.jpg" alt="Koushik's Profile">
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <h2>Hi, I'm <span class="highlight" id="name">Koushik Rajan</span></h2>
+        <p>Aspiring application & web Developer</p>
+        <img src="https://raw.githubusercontent.com/koushikrajan25/PortfolioModel-1/main/assets/Profile.jpg" alt="Koushik's Profile" loading="lazy" />
+      </div>
+    </section>
 
-  </div>
-</section>
+    <script>
+      const names = [
+        "Koushik Rajan",             // English
+        "கௌஷிக் ராஜன்",        // Tamil
+        "കൗശിക് രാജൻ",          // Malayalam
+        "कौशिक राजन",               // Hindi
+        "ಕೌಶಿಕ್ ರಾಜನ್",               // Kannada
+        "కౌశిక్ రాజన్",                 // Telugu
+        "কৌশিক রাজন",              // Bengali
+        "كوشيك راجان",              // Arabic
+        "Каушик Раджан",             // Russian
+        "코우시크 라잔",               // Korean
+      ];
 
-<script>
-const names = [
-  "Koushik Rajan",            // English
-  "கௌஷிக் ராஜன்",        // Tamil
-  "കൗശിക് രാജൻ",          // Malayalam
-  "कौशिक राजन",               // Hindi
-  "ಕೌಶಿಕ್ ರಾಜನ್",             // Kannada
-  "కౌశిక్ రాజన్",                // Telugu
-  "কৌশিক রাজন",              // Bengali
-  "كوشيك راجان",              // Arabic
-  "Каушик Раджан",             // Russian
-  "코우시크 라잔",              // Korean
-];
-
-  let i = 0;
-  setInterval(() => {
-    document.getElementById("name").textContent = names[i];
-    i = (i + 1) % names.length;
-  }, 2000);
-</script>
+      let i = 0;
+      setInterval(() => {
+        document.getElementById("name").textContent = names[i];
+        i = (i + 1) % names.length;
+      }, 2000);
+    </script>
 
     <!-- About Section -->
     <section id="about">
       <div class="container">
         <h2>About Me</h2>
         <div>
-  <div class="terminal-box">
-    <div class="response">
-      <pre>public class AboutKoushik {
+          <div class="terminal-box">
+            <div class="response">
+              <pre>public class AboutKoushik {
 
     public static void main(String[] args) {
         String name = "Koushik Rajan";
@@ -58,11 +57,13 @@ const names = [
         System.out.println("Hello! I'm " + name + ",
         pursuing my " + degree +" from " + university + ".");
     }
-}</pre></div>
-  </div>
-  <div class="terminal-box">
-    <div class="response">
-      <pre>public class SkillsTools {
+}</pre>
+            </div>
+          </div>
+
+          <div class="terminal-box">
+            <div class="response">
+              <pre>public class SkillsTools {
 
     public static void main(String[] args) {
         String[] proficientWith = {
@@ -93,59 +94,114 @@ const names = [
         }
     }
 }
-    </pre></div>
-          <center> <a class="cta" href="https://github.com/koushikrajan25/PortfolioModel-1/raw/c20e044c8ff0ef8921794a137dbaba1ac5983203/assets/KoushikResume2025.pdf" target="_blank" download>View Resume</a></center>
+              </pre>
+            </div>
+            <center>
+              <a
+                class="cta"
+                href="https://github.com/koushikrajan25/PortfolioModel-1/raw/c20e044c8ff0ef8921794a137dbaba1ac5983203/assets/KoushikResume2025.pdf"
+                target="_blank"
+                download
+                >View Resume</a
+              >
+            </center>
           </div>
         </div>
       </div>
     </section>
 
-<!-- Education section -->
+    <!-- Education Section -->
     <section>
       <div class="container">
         <h2 class="section-title">Education</h2>
 
         <div class="edu-card">
-          <h2>B.E. Computer Science and engineering · Hindusthan institute of technology, Coimbatore.</h2>
+          <h2>
+            B.E. Computer Science and engineering · Hindusthan institute of
+            technology, Coimbatore.
+          </h2>
           <div class="duration">2022 — 2026 | CGPA 8.00 | Honours in computer science.</div>
-          <p>Completed an intensive undergraduate program with a focus on theoretical foundations and applied computing. Earned distinction through consistent academic performance and specialized honors coursework.</p>
-    </div>
+          <p>
+            Completed an intensive undergraduate program with a focus on
+            theoretical foundations and applied computing. Earned distinction
+            through consistent academic performance and specialized honors
+            coursework.
+          </p>
+        </div>
+
         <div class="edu-card">
-          <h2>HSC · Venus Matriculation and higher secondary School, Chidambaram.</h2>
+          <h2>
+            HSC · Venus Matriculation and higher secondary School, Chidambaram.
+          </h2>
           <div class="duration">2020 — 2022 | 74.87%</div>
-          <p>Completed higher secondary education with a strong academic record and focus. Recognized for consistent performance.</p>
+          <p>
+            Completed higher secondary education with a strong academic record
+            and focus. Recognized for consistent performance.
+          </p>
         </div>
       </div>
     </section>
 
-
-<!-- Contact Section -->
+    <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <center><h2>Contact</h2>
-        <p>Have a project idea or want to collaborate? Reach out!!</p></center>
-<!-- Social Media Icons -->
-    <div class="social-icons">
-      <a href="mailto:koushikkalai25@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Koushik," target="_blank">
-        <img src="assets/Contact_icon/icons8-gmail-50.png" alt="Email" class="icon" />
-      </a>
-      <a href="https://github.com/koushikrajan25" target="_blank">
-        <img src="assets/Contact_icon/icons8-github-logo-50.png" alt="GitHub" class="icon" />
-      </a>
-      <a href="https://www.linkedin.com/in/yourusername/" target="_blank">
-        <img src="assets/Contact_icon/icons8-linkedin-50.png" alt="LinkedIn" class="icon" />
-      </a>
-      <a href="https://www.instagram.com/koushik.4eae_/" target="_blank">
-        <img src="assets/Contact_icon/icons8-instagram-50.png" alt="Instagram" class="icon" />
-      </a>
-    </div>
-  </div>
-</section>
+        <center>
+          <h2>Contact</h2>
+          <p>Have a project idea or want to collaborate? Reach out!!</p>
+        </center>
 
-<!--Footer-->
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+          <a
+            href="mailto:koushikkalai25@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Koushik,"
+            target="_blank"
+          >
+            <img
+              src="assets/Contact_icon/icons8-gmail-50.png"
+              alt="Email"
+              class="icon"
+            />
+          </a>
+          <a href="https://github.com/koushikrajan25" target="_blank">
+            <img
+              src="assets/Contact_icon/icons8-github-logo-50.png"
+              alt="GitHub"
+              class="icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/yourusername/" target="_blank">
+            <img
+              src="assets/Contact_icon/icons8-linkedin-50.png"
+              alt="LinkedIn"
+              class="icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/koushik.4eae_/" target="_blank">
+            <img
+              src="assets/Contact_icon/icons8-instagram-50.png"
+              alt="Instagram"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
       <p>© 2025 Koushik | All rights reserved</p>
-      </div>
     </footer>
 
+    <!-- External JS scripts should be added here -->
+    <script src="scripts/scrollReveal.js"></script>
+    <script src="scripts/tiltAnimation.js"></script>
+    <script>
+      import initScrollReveal from "./scripts/scrollReveal.js";
+      import initTiltEffect from "./scripts/tiltAnimation.js";
+      import { targetElements, defaultProps } from "./data/scrollRevealConfig.js";
+
+      initScrollReveal(targetElements, defaultProps);
+      initTiltEffect();
+    </script>
   </body>
+</html>
